@@ -1,0 +1,339 @@
+@import url(https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+  box-sizing: border-box;
+  font-family: "Livvic", sans-serif;
+}
+body {
+  background-color: #014e56;
+}
+.ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  column-gap: 40px;
+  font-family: "Livvic", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.ul button {
+  background-color: transparent;
+  color: #fff;
+  padding: 9px 33px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  transition: 0.3s;
+  font-family: "Livvic", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.ul button:hover {
+  background-color: #fff;
+  color: #002529;
+  padding: 9px 33px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  transition: 0.3s;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 73px;
+}
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+.section {
+  margin: 120px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.secti{
+  background-color: #004047;
+  padding-top: 73px;
+  padding-bottom: 176px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sectio {
+  background-color: #012f34;
+  padding-top: 73px;
+  padding-bottom: 176px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 113px;
+}
+.section4 {
+  background-color: #f67e7e;
+  padding: 76px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.right p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #fff;
+  width: 730px;
+  height: 112px;
+}
+.left h1 {
+  font-family: "Livvic", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 100px;
+  color: #fff;
+}
+#i1 {
+  color: white;
+  font-size: 30px;
+  display: none;
+}
+.p1 {
+  font-family: "Livvic", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 70px;
+}
+.div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+  margin-top: 40px;
+}
+.div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+  margin-top: 40px;
+}
+.item {
+  background-color: #012f34;
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+  height: 274.73px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.item p:nth-child(2) {
+  font-family: "Livvic", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #79c8c7;
+  text-align: center;
+}
+.item p:nth-child(3) {
+  font-family: "Livvic", sans-serif;
+  font-family: Livvic;
+  font-size: 15px;
+  line-height: 25px;
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+}
+.item div {
+  padding: 20px 23px;
+  background-color: #f67e7e;
+  border-radius: 100%;
+  transform: translateY(85%);
+}
+.uli {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 80px;
+  margin-top: 40px;
+}
+.section-left p {
+  font-family: "Livvic", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #fff;
+  text-align: center;
+}
+.section4-right button {
+  background-color: transparent;
+  color: #002529;
+  padding: 9px 33px;
+  border-radius: 20px;
+  border: 3px solid #002529;
+  transition: 0.3s;
+  font-family: "Livvic", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.section4-right button:hover {
+  background-color: #002529;
+  color: #fff;
+  padding: 9px 33px;
+  border-radius: 20px;
+  border: 3px solid #002529;
+  transition: 0.3s;
+}
+.section4-left p {
+  font-family: "Livvic", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  color: #012f34;
+}
+.sectio {
+  display: flex;
+  justify-content: space-between;
+}
+.container1 {
+  margin: 0 auto;
+  width: 75%;
+}
+footer {
+  background-color: #002529;
+  padding: 48px 0px 20px 0px;
+}
+.ul2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  column-gap: 40px;
+  font-family: "Livvic", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.ul2 li {
+  font-size: 24px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 961px) {
+  .div {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    row-gap: 78px;
+  }
+  .section-left p {
+    font-family: "Livvic", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+  }
+  .uli li {
+    width: 103px;
+    height: 17px;
+  }
+  .uli {
+    column-gap: -80px;
+  }
+}
+@media (max-width: 873px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+  }
+  .p1 {
+    font-family: "Livvic", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+  }
+  .right p {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .left h1 {
+    text-align: center;
+  }
+  .section4-left p {
+    font-family: "Livvic", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+  }
+  .ul2 li {
+    font-size: 25px;
+  }
+}
+@media (max-width: 425px) {
+  .left h1 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .ul {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+  }
+  #i1 {
+    display: block;
+  }
+  .uli {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  .uli li {
+    width: 159.37px;
+    height: 19.81px;
+    justify-content: center;
+    display: flex;
+  }
+  .sectio {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    align-items: center;
+  }
+  .section4-left p {
+    text-align: center;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    align-items: center;
+  }
+  .ul2 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+    align-items: center;
+  }
+}
